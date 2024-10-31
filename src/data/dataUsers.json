@@ -1,0 +1,17 @@
+{
+    "users": [
+      {
+        "user": "admin",
+        "password": "123456",
+        "name": "Juan",
+        "email": "juan@correo.com"
+      },
+      {
+        "user": "super-admin",
+        "password": "432323",
+        "name": "Natasha",
+        "email": "natasha@correo.com"
+      }
+     
+    ]
+  }

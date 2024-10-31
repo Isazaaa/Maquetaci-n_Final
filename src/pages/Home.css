@@ -1,0 +1,29 @@
+.home {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.contenido-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); /* Ajusta este valor según la altura de tu Header */
+    padding: 20px;
+}
+
+.contenedor-imagen {
+    width: auto; /* Permite que el ancho se ajuste automáticamente */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-perfil {
+    width: 400px; /* Ajusta el tamaño de la imagen */
+    height: 400px; /* Ajusta el tamaño de la imagen */
+    object-fit: contain; /* Mantiene la proporción */
+}
